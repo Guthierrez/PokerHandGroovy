@@ -19,8 +19,8 @@ class DoisParesClassificador implements PokerHandClassificador {
 				pokerHand.setCategoria(CategoriaMao.DOIS_PARES)
 				return true
 			}
+			pokerHand.setCartas(todasCartas)
 		}
-		pokerHand.setCartas(todasCartas)
 		return false
 	}
 }

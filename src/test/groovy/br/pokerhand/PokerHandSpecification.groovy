@@ -8,7 +8,7 @@ import spock.lang.Unroll
  */
 class PokerHandSpecification extends Specification {
 	@Unroll
-	def "teste mao vencedora"(){
+	def "teste com mao vencedora"(){
 		given:
 		AbstractHand handUm = new PokerHand(cartas)
 		AbstractHand handDois = new PokerHand(cartasOponente)
@@ -50,7 +50,23 @@ class PokerHandSpecification extends Specification {
 		"7C 8S 9H TH JH" | "TS TH TD JH JD"   | Result.LOSS
 		"7C 8S 9H TH JH" | "JH JD TH TC 4C"   | Result.WIN
 		"TS TH TD JH JD" | "JH JD TH TC 4C"   | Result.WIN
-		"7H 8H 9H TH JH" | "7H 8H 9H TH JH"   | Result.SPLIT
+	}
+
+	@Unroll
+	def "teste com maos que empatam" (){
+		given:
+		AbstractHand handUm = new PokerHand(cartas)
+		AbstractHand handDois = new PokerHand(cartasOponente)
+
+		expect:
+		handUm.compareWith(handDois) == resultado
+
+		where:
+		cartas           | cartasOponente     | resultado
+		"7D 8D 9D TD JD" | "7H 8H 9H TH JH"   | Result.SPLIT
 		"7H 7D 9H TH JH" | "7H 7D 9H TH JH"   | Result.SPLIT
+		"9C 9H 5C 5H AH" | "9C 9H 5C 5H AC"   | Result.SPLIT
+		"8H 7D 9H TH AH" | "8H 7D 9H TH AH"   | Result.SPLIT
+		"JH JC JS TD TH" | "JH JC JS TD TH"   | Result.SPLIT
 	}
 }

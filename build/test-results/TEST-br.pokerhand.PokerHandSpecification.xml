@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.pokerhand.PokerHandSpecification" tests="37" skipped="0" failures="0" errors="0" timestamp="2017-06-12T12:48:25" hostname="guthierrezsouza" time="0.302">
+  <properties/>
+  <testcase name="teste com mao vencedora[0]" classname="br.pokerhand.PokerHandSpecification" time="0.169"/>
+  <testcase name="teste com mao vencedora[1]" classname="br.pokerhand.PokerHandSpecification" time="0.006"/>
+  <testcase name="teste com mao vencedora[2]" classname="br.pokerhand.PokerHandSpecification" time="0.006"/>
+  <testcase name="teste com mao vencedora[3]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[4]" classname="br.pokerhand.PokerHandSpecification" time="0.005"/>
+  <testcase name="teste com mao vencedora[5]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[6]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[7]" classname="br.pokerhand.PokerHandSpecification" time="0.005"/>
+  <testcase name="teste com mao vencedora[8]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[9]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[10]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[11]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[12]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[13]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[14]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[15]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[16]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[17]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[18]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[19]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[20]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[21]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[22]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[23]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[24]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[25]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[26]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[27]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com mao vencedora[28]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[29]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com mao vencedora[30]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com mao vencedora[31]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com maos que empatam[0]" classname="br.pokerhand.PokerHandSpecification" time="0.002"/>
+  <testcase name="teste com maos que empatam[1]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com maos que empatam[2]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <testcase name="teste com maos que empatam[3]" classname="br.pokerhand.PokerHandSpecification" time="0.004"/>
+  <testcase name="teste com maos que empatam[4]" classname="br.pokerhand.PokerHandSpecification" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

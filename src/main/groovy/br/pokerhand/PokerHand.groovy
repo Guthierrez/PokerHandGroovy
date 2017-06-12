@@ -38,14 +38,14 @@ class PokerHand extends AbstractHand {
 	}
 
 	Boolean isFlush() {
-		Integer contadorNaipe = cartas.findAll { it.getNaipeCarta().getValor() == cartas.first().getNaipeCarta().getValor() }.size()
+		Integer contadorNaipe = cartas.findAll { it.getNaipeCarta() == cartas.first().getNaipeCarta()}.size()
 		return contadorNaipe == QUANTIDADE_PARA_FLUSH
 	}
 
 	List<Carta> findCartasMesmoValor(Integer quantidade) {
 		List<Carta> cartasEncontradas = []
 		for (Carta carta in getCartas()) {
-			cartasEncontradas = getCartas().findAll({ carta.getValorCarta().getPeso() == it.getValorCarta().getPeso() })
+			cartasEncontradas = getCartas().findAll{carta.getValorCarta() == it.getValorCarta()}
 			if (cartasEncontradas.size() == quantidade) {
 				return cartasEncontradas
 			}

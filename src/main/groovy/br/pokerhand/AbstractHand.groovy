@@ -23,11 +23,11 @@ abstract class AbstractHand {
 		} else if (this.getCategoria().getDesempateCategoria(this) < other.getCategoria().getDesempateCategoria(other)) {
 			return Result.LOSS
 		} else {
-			return this.desempatarPorKicker(other)
+			return this.desempatarPorCartaMaior(other)
 		}
 	}
 
-	Result desempatarPorKicker(PokerHand other) {
+	Result desempatarPorCartaMaior(PokerHand other) {
 		for (int i = 0; i < getCartas().size(); i++) {
 			if (this.getCartas().get(i).getValorCarta().getPeso() > other.getCartas().get(i).getValorCarta().getPeso()) {
 				return Result.WIN

@@ -22,13 +22,13 @@ enum ValorCarta {
 	String valor
 	Integer peso
 
-	ValorCarta(String valor, Integer peso){
+	ValorCarta(String valor, Integer peso) {
 		this.valor = valor
 		this.peso = peso
 	}
 
-	static ValorCarta getValorCarta(String valor){
-		ValorCarta.values().find{it.getValor() == valor}
+	static ValorCarta getValorCarta(String valor) {
+		ValorCarta.values().find { it.getValor() == valor }
 	}
 
 	@Override

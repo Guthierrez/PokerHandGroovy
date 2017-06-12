@@ -11,7 +11,8 @@ class RoyalFlushClassificador implements PokerHandClassificador {
 
 	@Override
 	Boolean classificarMao(PokerHand pokerHand) {
-		if (pokerHand.isSequencia() && pokerHand.isFlush() && pokerHand.getCartas().first().getValorCarta().equals(ValorCarta.DEZ)) {
+		if (pokerHand.isSequencia() && pokerHand.isFlush()
+				&& pokerHand.getCartas().first().getValorCarta().equals(ValorCarta.DEZ)) {
 			pokerHand.setCategoria(CategoriaMao.ROYAL_FLUSH)
 			return true
 		}
