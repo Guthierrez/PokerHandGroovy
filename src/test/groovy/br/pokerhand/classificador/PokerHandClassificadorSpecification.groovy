@@ -89,6 +89,7 @@ class PokerHandClassificadorSpecification extends Specification {
 		mao | resultado
 		"8D TD 3D 4D 7D" | true
 		"4D 5D 6D 7C 8D" | false
+		"4D 4D 6D 7D 7D" | true
 	}
 
 	@Unroll
@@ -104,6 +105,8 @@ class PokerHandClassificadorSpecification extends Specification {
 		mao | resultado
 		"8D TD 3D 4D 7D" | false
 		"4D 5D 6D 7C 8D" | true
+		"4D 5D 6D 7D 8D" | false
+		"7D 5D 8D 4C 6D" | true
 	}
 
 	@Unroll
@@ -119,6 +122,7 @@ class PokerHandClassificadorSpecification extends Specification {
 		mao | resultado
 		"8D 8S 8C 3D 7D" | true
 		"8D 8S 8C 3D 3S" | false
+		"8D 8S 8C 8H 3S" | false
 	}
 
 	@Unroll

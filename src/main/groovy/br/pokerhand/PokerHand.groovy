@@ -34,11 +34,16 @@ class PokerHand extends AbstractHand {
 	}
 
 	Boolean isSequencia() {
-		return getCartas().first().getValorCarta().getPeso() + INTERVALO_TAMANHO_SEQUENCIA == cartas.last().getValorCarta().getPeso()
+		for(int i=0; i < getCartas().size()-1; i++){
+			if(getCartas().get(i+1).getValorCarta().getPeso() != getCartas().get(i).getValorCarta().getPeso()+1){
+				return false
+			}
+		}
+		return true
 	}
 
 	Boolean isFlush() {
-		Integer contadorNaipe = cartas.findAll { it.getNaipeCarta() == cartas.first().getNaipeCarta()}.size()
+		Integer contadorNaipe = getCartas().findAll { it.getNaipeCarta() == getCartas().first().getNaipeCarta()}.size()
 		return contadorNaipe == QUANTIDADE_PARA_FLUSH
 	}
 
