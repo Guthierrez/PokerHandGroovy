@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Guthierrez\Desktop\PokerHandGroovy\.idea\modules\PokerHand\PokerHand.iml" filepath="C:\Users\Guthierrez\Desktop\PokerHandGroovy\.idea\modules\PokerHand\PokerHand.iml" group="PokerHand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PokerHandGroovy.iml" filepath="$PROJECT_DIR$/.idea/modules/PokerHandGroovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PokerHand/PokerHandGroovy-PokerHand.iml" filepath="$PROJECT_DIR$/.idea/modules/PokerHand/PokerHandGroovy-PokerHand.iml" group="PokerHand" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PokerHandGroovy_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PokerHandGroovy_main.iml" group="PokerHandGroovy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PokerHandGroovy_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PokerHandGroovy_test.iml" group="PokerHandGroovy" />
+    </modules>
+  </component>
+</project>
