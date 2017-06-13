@@ -18,7 +18,6 @@ import br.pokerhand.classificador.UmParClassificador
  */
 class PokerHand extends AbstractHand {
 
-	private final static INTERVALO_TAMANHO_SEQUENCIA = 4
 	private final static QUANTIDADE_PARA_FLUSH = 5
 
 	private classificadores = [
